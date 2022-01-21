@@ -1,3 +1,81 @@
-body {
-    background: #000;
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --accent-text-color: #FFFFFF;
+
 }
+
+body {
+    background-color: #ffffff;
+    color: var(--primary-text-color);
+}
+ul{
+    list-style: none;
+}
+/*logo*/
+.logo {
+    color: #000000;
+}
+.logo-web {
+    color:#2196F3 ;
+}
+.logo:hover{
+    color: #2196F3;
+}
+/*site-nav*/
+.site-nav .link{
+color:var(--title-text-color);}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color:var(--accent-color);
+}
+/*contact*/
+.contact .link{
+    color:var(--primary-text-color);
+}
+.contact .link:hover,
+.contact .link:focus{
+    color:var(--accent-color); 
+}
+/*hero*/
+.hero-title{
+    color:var(--accent-text-color);
+}
+/*section*/
+.section-title{
+    color: var(--title-text-color);
+}
+/* advantages */
+.advantages .advantages-title{
+    color: var(--title-text-color);
+}
+/* iteam */
+.iteam .iteam-title{
+    color: var(--title-text-color);
+}
+/*buttom*/
+.button{
+     color: var(--accent-text-color) ;
+     background-color: var(--accent-color);
+}
+/* footer */
+.nav-footer .link{
+    color: var(--accent-text-color) ;}
+    .nav-footer .link:hover,
+    .nav-footer .link:focus{
+        color:var(--accent-color);
+    }
+    .footer {
+        background: #212121;
+    }
+
+/*основний колір тексту #757575 */
+
+/*колір акцента тексту #2196F3*/
+/*колір кнопки і h1*/
+
+/*бекграунд хеда #FFFFF*/
+/*бекграунд основний відділ #2F303A */
+/*бекграунд команда #F5F4FA*/
+/*бекграунд хедер #2F303A*/
